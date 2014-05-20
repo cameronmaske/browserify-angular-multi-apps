@@ -1,0 +1,40 @@
+{
+  "name": "Browserify-Experiment",
+  "version": "0.0.1",
+  "description": "AngularJS project with Browserify",
+  "author": "Cameron Maske",
+  "license": "MIT",
+  "scripts": {
+    "install": "napa"
+  },
+  "napa": {
+    "angular": "angular/bower-angular",
+    "angular-route": "angular/bower-angular-route",
+    "ui-router": "angular-ui/ui-router"
+  },
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "karma": "^0.12.15",
+    "karma-coffee-preprocessor": "^0.2.1",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "gulp": "^3.6.2",
+    "gulp-util": "^2.2.14",
+    "browserify": "^4.1.5",
+    "vinyl-source-stream": "^0.1.1",
+    "gulp-plumber": "^0.6.1",
+    "connect": "^2.16.2",
+    "coffeeify": "^0.6.0",
+    "watchify": "^0.10.1",
+    "gulp-ng-html2js": "^0.1.6",
+    "gulp-concat": "^2.2.0"
+  },
+  "dependencies": {
+    "karma": "^0.12.15"
+  }
+}
